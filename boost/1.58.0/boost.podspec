@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Rene Rivera" => "" }
   s.source       = { :http => "http://sourceforge.net/projects/boost/files/boost/1.57.0/boost_1_57_0.tar.gz" }
   s.requires_arc = false
-  s.xcconfig     = { "HEADER_SEARCH_PATHS" => "\"${SRCROOT}/Pods/boost\"" }
+  #s.xcconfig     = { "HEADER_SEARCH_PATHS" => "\"${SRCROOT}/Pods/boost\"" }
   s.platform     = :ios, '4.0'
   
 end
