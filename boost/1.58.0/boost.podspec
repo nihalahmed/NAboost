@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :http => "http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz" }
   s.requires_arc = false
   s.xcconfig     = { "HEADER_SEARCH_PATHS" => "\"${SRCROOT}/Pods/boost\"" }
-  s.source_files = 'boost/**/*'
-
+  s.platform     = :ios, '4.0'
+  
 end
