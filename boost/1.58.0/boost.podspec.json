@@ -19,13 +19,5 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
   },
   "requires_arc": false,
-  "subspecs": [
-    {
-      "name": "optional",
-      "preserve_paths": [
-        "boost/*.hpp",
-        "boost/{optional}/**/*.hpp"
-      ]
-    }
-  ]
+  "source_files": "boost/*.hpp"
 }
