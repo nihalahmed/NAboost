@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "JSONSchema"
+  s.name         = "NASchemaLOL"
   s.version      = "0.0.1"
   s.summary      = "Library for defining JSON schemas and validating data against them."
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author             = { "R. Tony Goold" => "tony@goold.net" }
   s.social_media_url = "https://twitter.com/tonygoold"
 
-  s.source       = { :http => "http://sourceforge.net/projects/boost/files/boost/1.57.0/boost_1_57_0.tar.gz" }
+  s.source       = { :git => "https://github.com/tonygoold/JSONSchema.git", :tag => "0.0.1" }
 
   s.source_files  = 'JSONSchema'
 
