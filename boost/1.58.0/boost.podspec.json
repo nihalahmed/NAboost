@@ -19,5 +19,5 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
   },
   "requires_arc": false,
-  "source_files": "boost/*.hpp",
+  "source_files": "",
 }
