@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "NAboost"
-  s.version      = "1.58.0"
+  s.name         = "JSONSchema"
+  s.version      = "0.0.1"
   s.summary      = "Library for defining JSON schemas and validating data against them."
 
   s.description  = <<-DESC
