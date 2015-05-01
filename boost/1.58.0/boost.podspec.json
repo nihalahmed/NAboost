@@ -13,7 +13,6 @@
   },
   "platforms": {
     "ios": "4.0",
-    "osx": "10.6"
   },
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
