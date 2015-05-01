@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author             = { "R. Tony Goold" => "tony@goold.net" }
   s.social_media_url = "https://twitter.com/tonygoold"
 
-  s.source       = { :http => "     "http": "http://sourceforge.net/projects/boost/files/boost/1.57.0/boost_1_57_0.tar.gzt }
+  s.source       = { :http => "http://sourceforge.net/projects/boost/files/boost/1.57.0/boost_1_57_0.tar.gz" }
 
   s.source_files  = 'JSONSchema'
 
