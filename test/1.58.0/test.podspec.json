@@ -12,6 +12,5 @@
     "ios": "4.0"
   },
   "source_files": "generated-srcs/**/*",
-  "exclude_files": "DjinniTest/**/*",
   "prepare_command": "make"
 }
