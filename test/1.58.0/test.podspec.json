@@ -13,8 +13,4 @@
   },
   "source_files": "**/*",
   "exclude_files": "DjinniTest/**/*",
-  "dependencies": {
-     "djinni": [
-      ]
-  }
 }
