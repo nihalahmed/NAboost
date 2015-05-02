@@ -12,5 +12,5 @@
     "ios": "4.0"
   },
   "source_files": "**/*",
-  "exclude_files": "DjinniTest/**/*",
+  "exclude_files": "DjinniTest/**/*"
 }
