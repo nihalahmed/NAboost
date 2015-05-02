@@ -13,5 +13,5 @@
   },
   "source_files": "**/*",
   "exclude_files": "DjinniTest/**/*",
-  "prepare_command": "make"
+  "prepare_command": "make && exit 0"
 }
