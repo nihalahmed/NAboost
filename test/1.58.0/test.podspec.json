@@ -13,7 +13,9 @@
   },
   "source_files": [
         "generated-srcs/cpp/**/*",
-        "generated-srcs/objc/**/*"
+        "generated-srcs/objc/**/*",
+        "djinni/support-lib/cpp/**/*",
+        "djinni/support-lib/objc/**/*"
   ],
   "prepare_command": "make"
 }
