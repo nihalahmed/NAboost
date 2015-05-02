@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "test"
+  s.name         = "boost"
   s.version      = "0.0.1"
   s.summary      = "Library for defining JSON schemas and validating data against them."
 
