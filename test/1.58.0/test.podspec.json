@@ -13,7 +13,7 @@
   "source_files": "**/*",
   "exclude_files": "DjinniTest/**/*",
   "dependencies": {
-     "test": [
+     "djinni": [
       ]
   }
 }
