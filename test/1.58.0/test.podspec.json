@@ -10,5 +10,6 @@
   "platforms": {
     "ios": "4.0"
   },
-  "source_files": "**/*"
+  "source_files": "**/*",
+  "exclude_files": "DjinniTest/**/*"
 }
