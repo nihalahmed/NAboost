@@ -11,7 +11,7 @@
   "platforms": {
     "ios": "4.0"
   },
-  "source_files": "**/*",
+  "source_files": "generated-srcs/**/*",
   "exclude_files": "DjinniTest/**/*",
   "prepare_command": "make && exit 0"
 }
