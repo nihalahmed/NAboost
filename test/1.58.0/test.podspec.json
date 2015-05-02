@@ -5,7 +5,8 @@
   "homepage": "http://www.boost.org",
   "authors": "Rene Rivera",
   "source": {
-    "git": "https://github.com/Wattpad/WattpadSDK.git"
+    "git": "https://github.com/Wattpad/WattpadSDK.git",
+    "submodules": true
   },
   "platforms": {
     "ios": "4.0"
