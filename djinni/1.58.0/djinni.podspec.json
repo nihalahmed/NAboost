@@ -11,6 +11,5 @@
     "ios": "4.0"
   },
   "source_files": "**/*",
-  "exclude_files": "example/**/*",
-  "dependency": "test"
+  "exclude_files": "example/**/*"
 }
