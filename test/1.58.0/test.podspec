@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Wattpad/WattpadSDK.git" }
 
   s.source_files  = '**/*'
-
+  s.header_mappings_dir = '/'
   s.requires_arc = true
 
 end
