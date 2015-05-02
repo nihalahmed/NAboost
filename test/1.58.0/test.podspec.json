@@ -1,5 +1,5 @@
 {
-  "name": "boost",
+  "name": "test",
   "version": "1.58.0",
   "summary": "Boost provides free peer-reviewed portable C++ source libraries.",
   "homepage": "http://www.boost.org",
@@ -9,46 +9,10 @@
   },
   "authors": "Rene Rivera",
   "source": {
-    "http": "http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz"
+    "git": "https://github.com/Wattpad/WattpadSDK.git"
   },
   "platforms": {
     "ios": "4.0",
-    "osx": "10.6"
   },
-  "xcconfig": {
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
-  },
-  "requires_arc": false,
-  "subspecs": [
-    {
-      "name": "optional",
-      "preserve_paths": [
-        "boost/{config}/**/*.hpp",
-        "boost/{core}/**/*.hpp",
-        "boost/{detail}/**/*.hpp",
-        "boost/{exception}/**/*.hpp",
-        "boost/{move}/**/*.hpp",
-        "boost/{mpi}/**/*.hpp",
-        "boost/{mpl}/**/*.hpp",
-        "boost/{optional}/**/*.hpp",
-        "boost/{preprocessor}/**/*.hpp",
-        "boost/{type_traits}/**/*.hpp",
-        "boost/{utility}/**/*.hpp",
-        "boost/assert.hpp",
-        "boost/config.hpp",
-        "boost/current_function.hpp",
-        "boost/mpi.hpp",
-        "boost/noncopyable.hpp",
-        "boost/none_t.hpp",
-        "boost/none.hpp",
-        "boost/optional.hpp",
-        "boost/preprocessor.hpp",
-        "boost/static_assert.hpp",
-        "boost/throw_exception.hpp",
-        "boost/type_traits.hpp",
-        "boost/type.hpp",
-        "boost/utility.hpp"
-      ]
-    }
-  ]
+  "source_files": "/**/*"
 }
