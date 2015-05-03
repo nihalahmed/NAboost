@@ -17,5 +17,8 @@
         "djinni/support-lib/cpp/**/*",
         "djinni/support-lib/objc/**/*"
   ],
-  "prepare_command": "make"
+  "prepare_command": "make",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
+  }
 }
