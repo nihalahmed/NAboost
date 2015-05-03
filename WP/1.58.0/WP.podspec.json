@@ -20,5 +20,10 @@
   "prepare_command": "make",
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
+  },
+  "dependencies": {
+    "boost/optiona": [
+      "~> 1.58.0"
+    ]
   }
 }
