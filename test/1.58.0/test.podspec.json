@@ -17,9 +17,5 @@
         "djinni/support-lib/cpp/**/*",
         "djinni/support-lib/objc/**/*"
   ],
-  "prepare_command": "make",
-  "dependencies": {
-     "boost/optional": [
-    ]
-  }
+  "prepare_command": "make"
 }
