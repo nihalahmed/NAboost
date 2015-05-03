@@ -25,5 +25,6 @@
     "boost/optional": [
       "~> 1.58.0"
     ]
-  }
+  },
+  "libraries": "c++"
 }
