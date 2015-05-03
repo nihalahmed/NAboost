@@ -16,7 +16,8 @@
         "generated-srcs/objc/**/*",
         "djinni/support-lib/cpp/**/*",
         "djinni/support-lib/objc/**/*",
-        "src/cpp/**/*"
+        "src/cpp/**/*",
+        "jsoncpp/**/*"
   ],
   "prepare_command": "make",
   "xcconfig": {
