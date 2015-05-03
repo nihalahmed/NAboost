@@ -22,7 +22,7 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
   },
   "dependencies": {
-    "boost/optiona": [
+    "boost/optional": [
       "~> 1.58.0"
     ]
   }
