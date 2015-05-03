@@ -19,6 +19,33 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
   },
   "requires_arc": false,
+  "source_files": [
+        "boost/{config}/**/*.hpp",
+        "boost/{core}/**/*.hpp",
+        "boost/{detail}/**/*.hpp",
+        "boost/{exception}/**/*.hpp",
+        "boost/{move}/**/*.hpp",
+        "boost/{mpi}/**/*.hpp",
+        "boost/{mpl}/**/*.hpp",
+        "boost/{optional}/**/*.hpp",
+        "boost/{preprocessor}/**/*.hpp",
+        "boost/{type_traits}/**/*.hpp",
+        "boost/{utility}/**/*.hpp",
+        "boost/assert.hpp",
+        "boost/config.hpp",
+        "boost/current_function.hpp",
+        "boost/mpi.hpp",
+        "boost/noncopyable.hpp",
+        "boost/none_t.hpp",
+        "boost/none.hpp",
+        "boost/optional.hpp",
+        "boost/preprocessor.hpp",
+        "boost/static_assert.hpp",
+        "boost/throw_exception.hpp",
+        "boost/type_traits.hpp",
+        "boost/type.hpp",
+        "boost/utility.hpp"
+  ],
   "subspecs": [
     {
       "name": "optional",
