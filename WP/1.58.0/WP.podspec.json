@@ -21,7 +21,7 @@
   ],
   "prepare_command": "make",
   "xcconfig": {
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/boost\""
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/boost ${PODS_ROOT}/WP/jsoncpp"
   },
   "dependencies": {
     "boost/optional": [
