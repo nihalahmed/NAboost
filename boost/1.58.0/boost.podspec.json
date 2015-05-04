@@ -20,7 +20,7 @@
   },
   "requires_arc": false,
   "source_files": [
-            "boost/{config}/**/*.hpp",
+        "boost/{config}/**/*.hpp",
         "boost/{core}/**/*.hpp",
         "boost/{detail}/**/*.hpp",
         "boost/{exception}/**/*.hpp",
