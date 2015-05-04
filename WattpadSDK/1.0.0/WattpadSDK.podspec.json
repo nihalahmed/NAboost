@@ -23,7 +23,7 @@
     "HEADER_SEARCH_PATHS": "${PODS_ROOT}/boost ${PODS_ROOT}/WattpadSDK/jsoncpp"
   },
   "dependencies": {
-    "boost/optional": [
+    "boost": [
       "~> 1.58.0"
     ]
   },
