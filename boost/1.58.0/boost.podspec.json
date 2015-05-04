@@ -23,7 +23,6 @@
     {
       "name": "optional",
       "preserve_paths": [
-        "boost/**/*",
         "boost/{config}/**/*.hpp",
         "boost/{core}/**/*.hpp",
         "boost/{detail}/**/*.hpp",
