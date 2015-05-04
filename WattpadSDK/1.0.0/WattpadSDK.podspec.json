@@ -20,7 +20,7 @@
   ],
   "prepare_command": "make",
   "xcconfig": {
-    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/boost ${PODS_ROOT}/WP/jsoncpp"
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/boost ${PODS_ROOT}/WattpadSDK/jsoncpp"
   },
   "dependencies": {
     "boost/optional": [
