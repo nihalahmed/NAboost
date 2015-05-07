@@ -1,32 +1,17 @@
 Pod::Spec.new do |s|
-
-  s.name         = "test"
-  s.version      = "0.0.1"
-  s.summary      = "Library for defining JSON schemas and validating data against them."
-
-  s.description  = <<-DESC
-                   This is a library to simplify the process of checking JSON data against
-                   a schema. JSON schemas can be generated automatically from prototype
-                   plist objects. Unlike RestKit, JSONSchema is not an ORM library, it is
-                   intended specifically for catching and filtering bad data.
-
-                   * Define a schema by providing an example of the data it should accept
-                   * Support for optional fields
-                   * Support for recursive structures
-                   * Convert invalid data to valid data by providing default values
-                   DESC
-
-  s.homepage     = "https://github.com/tonygoold/JSONSchema"
-
-  s.license      = 'Apache License, Version 2.0'
-
-  s.author             = { "R. Tony Goold" => "tony@goold.net" }
-  s.social_media_url = "https://twitter.com/tonygoold"
-
-  s.source       = { :git => "https://github.com/Wattpad/WattpadSDK.git" }
-
-  s.source_files  = '**/*'
-  s.header_mappings_dir = '/'
-  s.requires_arc = true
-
+  s.name         = "WattpadSDK"
+  s.version      = "1.0.0"
+  s.summary      = "Common Wattpad C++ library for iOS and Android"
+  s.homepage     = "http://www.wattpad.com"
+  s.source       = { :git => "https://github.com/Wattpad/WattpadSDK.git", :submodules => true }
+  s.source_files = "generated-srcs/cpp/**/*",
+		   "generated-srcs/objc/**/*",
+ 		   "djinni/support-lib/cpp/**/*",
+		   "djinni/support-lib/objc/**/*",
+		   "src/cpp/**/*",
+        	   "jsoncpp/**/*"
+  s.prepare_command = "make"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/boost ${PODS_ROOT}/WattpadSDK/jsoncpp" }
+s.dependency = "boost/optional", "~> 1.58.0"
+s.libraries = "c++"
 end
