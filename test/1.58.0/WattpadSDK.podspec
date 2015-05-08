@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
         	   "jsoncpp/**/*"
   s.prepare_command = "make"
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/boost ${PODS_ROOT}/WattpadSDK/jsoncpp" }
-  s.dependency "boost/optional", "~> 1.58.0"
+  s.dependency 'boost/optional', '~> 1.58.0'
   s.libraries = "c++"
 end
